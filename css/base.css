@@ -10,10 +10,21 @@
     --white: #fff;
     --or: #ED8E00;
     --lightor: #F18128;
+    --CR: 'CR', sans-serif;
+    --RM: 'RM', sans-serif;
+    --RR: 'RR', sans-serif;
+    --MB: 'MB', sans-serif;
+    --MR: 'MR', sans-serif;
+    --CB: 'CB', sans-serif;
     
 }
 body{
     background: var(--bg);
     color:  var(--white);
 }
-
+.container{
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;   
+}
