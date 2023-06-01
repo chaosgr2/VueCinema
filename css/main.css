@@ -91,3 +91,8 @@
     width: 100%;
     transition: 0.3s;
 }
+.banner{
+    height: 100%;
+    width: 100%;
+    background: url(../img/banner.png) no-repeat center/cover, rgba(7, 15, 25, 0.75);
+}
