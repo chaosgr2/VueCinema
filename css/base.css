@@ -28,3 +28,20 @@ body{
     width: 100%;
     padding: 0 15px;   
 }
+.btn{
+    border: none;
+    outline: none;
+    font-family: var(--RM);
+    background: var(--lightor);
+    border-radius: 4px; 
+    font-size: 14px;
+    line-height: 12px;
+    text-align: justify;
+    color: #000000;
+    padding: 17px 48px;
+}
+.btn:hover{
+    background: var(--bg);
+    color: var(--white);
+    transition: 0.3s;
+}
