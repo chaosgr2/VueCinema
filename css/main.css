@@ -208,3 +208,30 @@
     text-align: justify;
     color: #000000;
 }
+.collections__wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
+}
+.collections-h{
+    font-family: var(--CR);
+    font-size: 36px;
+    line-height: 40px;
+    color:var(--lightor);
+}
+.collections__wrap_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.collections__wrap_menu-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+    min-height: 194px;
+    width: 100%;
+    border-radius: 6px;
+}
