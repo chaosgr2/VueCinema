@@ -1,6 +1,8 @@
 @import url(../css/base.css);
 @import url(../css/fonts.css);
 @import url(../css/header.css);
+@import url(../css/banner.css);
+
 
 .container{
     max-width: 1125px;
@@ -90,121 +92,4 @@
 .navbar__list_item a:hover:after{
     width: 100%;
     transition: 0.3s;
-}
-.banner{
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 80vh;
-    background: linear-gradient(#070f19ad, #070f19ad), url(../img/banner.png) no-repeat center center/cover;
-}
-.banner__wrap{
-    height: 100%;
-    display: flex;
-    align-items: center;
-
-}
-.banner__desc{
-    max-width: 630px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.banner__desc-h{
-    margin: 0 0 30px;
-    font-family: var(--MB);
-    font-size: 64px;
-    line-height: 78px;  
-    color: var(--white);
-}
-.banner__desc-p{
-    margin: 0 0 50px;
-    font-family: var(--MR);
-    font-size: 16px;
-    line-height: 24px;
-    text-align: justify;
-    color: #C8C8C8;
-}
-.banner__btns{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-.films{
-    margin: 60px 0 77px;
-}
-.films__wrap{
-    display: flex;
-    flex-direction: column;
-    gap: 67px;
-}
-.films__wrap-h{
-    font-family: var(--CR);
-    font-size: 36px;
-    line-height: 40px;
-    text-transform: capitalize;
-    color: var(--lightor);
-}
-.fa-play{
-    margin: 13px;
-    font-size: 46px;
-    --fa-primary-color: #ffffff; 
-    --fa-secondary-color: #ffffff; 
-    --fa-secondary-opacity: 0.5;
-}
-.films__card{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
-.films__card-item{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 255px;
-    padding: 54px 14px 18px;
-    border-radius: 6px;
-
-}
-.films__card-item-t{
-    margin: 0 0 33px;
-    padding: 7px 28px;
-    background: rgba(7, 15, 25, 0.2);
-    border: 1px solid #FFFFFF;
-    border-radius: 9px;
-    font-family: var(--MR);
-    font-size: 14px;
-    line-height: 10px;
-    color: var(--white);
-}
-.films__card-item-h{
-    margin: 0 0 16px;
-    font-family: var(--CR);
-    font-size: 22px;
-    line-height: 25px;
-    color: var(--white);
-}
-.films__card-item-p{
-    font-family: var(--RR);
-    font-size: 14px;
-    line-height: 21px;
-    color: var(--white);
-}
-.films__banner{
-    padding: 42px 0 80px 165px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    gap: 50px;
-}
-.films__banner-p{
-    font-family: var(--RR);
-    max-width: 558px;
-    font-size: 18px;
-    line-height: 27px;
-    text-align: justify;
-    color: #000000;
 }
