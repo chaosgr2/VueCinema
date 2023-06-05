@@ -45,3 +45,14 @@ body{
     color: var(--white);
     transition: 0.3s;
 }
+.title{
+    font-family: var(--CR);
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: var(--lightor);
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--lightor);
+    margin: 60px 0 54px;
+    width: max-content;
+}
