@@ -1,8 +1,12 @@
 .films{
     position: relative;
+    padding-bottom: 77px;
 }
-.films__weap{
-    
+.films__wrap{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 30px;
 }
 .films__card{
     position: relative;  
@@ -23,10 +27,14 @@
 .films__card-body{
     height: 100%;
     padding: 54px 15px 18px;
-    text-align: center;    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;   
 }
 .films__card-body-icon{
     font-size: 46px;
+    margin-bottom: 12px;
 }
 .films__card-body-time{
     font-family: var(--MR);
@@ -35,15 +43,40 @@
     color: var(--white);
     background: rgba(7, 15, 25, 0.2);
     border: 1px solid #FFFFFF;
-    border-radius: 9px;
-    padding: 7px 0;
+    border-radius: 10px;
+    padding: 5px 27px;
+    margin-bottom: 38px;
 }
 .films__card-body-title{
     font-family: var(--RM);
     font-size: 22px;
     line-height: 27px;
-    display: flex;
-    align-items: center;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 12px;
 }
+.films__card-body-desc{
+    font-family: var(--RR);
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--white);
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+@media screen and (max-width:992px){
+        .films__wrap{
+            flex-wrap: wrap;
+        }
+        .films__card{
+            max-width: 320px;
+        }
+}
+@media screen and (max-width:968px){
+    .films__card{
+        max-width: 255px;
+    }
+}
+
