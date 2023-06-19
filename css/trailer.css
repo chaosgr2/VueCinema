@@ -13,9 +13,6 @@
     object-fit: cover;
     z-index: -1;
 }
-.container{
-
-}
 .trailer__desc{
     max-width: 558px;
     width: 100%;
@@ -37,7 +34,4 @@
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     overflow: hidden;
-}
-.traile__btn{
-
 }
